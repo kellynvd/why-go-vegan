@@ -1,0 +1,52 @@
+.app {
+  text-align: center;
+}
+
+.app-initial-statement {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-shadow: 1px 1px 1px #FFF;
+}
+
+.app-button {
+	display: inline-block;
+  margin: 0;
+  padding: 0.75rem 1rem;
+	border: 0;
+	border-radius: 1.5rem;
+	background-color: #8cbf9e;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1rem;
+  line-height: 1.5;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	cursor: pointer;
+	-webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-button:hover {
+  opacity: 0.85;
+  background-color:	#2CC958;
+}
+
+.app-button:active {
+	box-shadow: inset 0 3px 4px hsla(0, 0%, 0%, 0.2);
+}
+
+.app-button:focus {
+  outline: none;
+  box-shadow: none
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
