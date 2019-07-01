@@ -1,19 +1,19 @@
 import React from 'react';
-import '../styles/App.css';
-import Reasons from '../api'
-import Action from './Action';
-import InitialStatement from './InitialStatement';
 import randomColor from 'randomcolor';
+import '../styles/App.css';
+import Action from './Action';
+import Statement from './Statement';
+import Reasons from '../api'
 
 class App extends React.Component {
 
 state = {
     reasons: Reasons,
     selectedReason: {
-      fact: undefined,
-      source: undefined
+      fact: 'O veganismo é uma forma de viver que busca excluir, na medida do possível e do praticável, todas as formas de exploração e de crueldade contra animais, seja para a alimentação, para o vestuário ou para qualquer outra finalidade.',
+      source: 'Definição criada pela The Vegan Society, da Inglaterra, mais antiga entidade vegana do mundo'
     },
-    backgroundColor: '#0f967d'
+    backgroundColor: '#008c5f'
   }
 
   handlePick = () => {
@@ -31,11 +31,14 @@ state = {
  
   render() {
     return (
-      <div className="app-initial-statement" style={{ background: this.state.backgroundColor }}>
-       <InitialStatement hasReasons={this.state.selectedReason.fact}/>
-        <p>{this.state.selectedReason.fact}</p>
-        <small>{this.state.selectedReason.source}</small>
-        <Action handlePick={this.handlePick}/>
+      <div className="app" style={{ background: this.state.backgroundColor }}>
+       <Statement 
+        fact={this.state.selectedReason.fact}
+        source={this.state.selectedReason.source}
+        />
+       <Action 
+        handlePick={this.handlePick}
+       />
       </div>
     );
   }
