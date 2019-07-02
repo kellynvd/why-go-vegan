@@ -11,7 +11,7 @@ state = {
     reasons: Reasons,
     selectedReason: {
       fact: 'O veganismo é uma forma de viver que busca excluir, na medida do possível e do praticável, todas as formas de exploração e de crueldade contra animais, seja para a alimentação, para o vestuário ou para qualquer outra finalidade.',
-      source: 'Definição criada pela The Vegan Society, da Inglaterra, mais antiga entidade vegana do mundo'
+      source: 'The Vegan Society'
     },
     backgroundColor: '#008c5f'
   }
