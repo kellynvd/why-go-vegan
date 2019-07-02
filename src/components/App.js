@@ -31,7 +31,9 @@ state = {
  
   render() {
     return (
-      <div className="app" style={{ background: this.state.backgroundColor }}>
+      <div className="hero is-bold is-fullheight" style={{ background: '-webkit-linear-gradient(141deg, ' + this.state.gradientColorOne + ',' + this.state.gradientColorTwo + ')' }}>
+       <div className="hero-body">
+        <div className="container">
        <Statement 
         fact={this.state.selectedReason.fact}
         source={this.state.selectedReason.source}
@@ -40,6 +42,8 @@ state = {
         handlePick={this.handlePick}
        />
       </div>
+       </div>
+      </div>    
     );
   }
 }

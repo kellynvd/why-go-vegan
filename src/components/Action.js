@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Action = (props) => (
-  <div>
+  <div className="container">
     <button 
-      className="button"
+      className="button is-white is-medium"
       onClick={props.handlePick}
       >
        Porquê ser vegano?

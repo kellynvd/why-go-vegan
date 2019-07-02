@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Statement = ({ fact, source }) => (
-  <div className="statement">    
+  <div className="container">    
     <blockquote className="quote">
-      <p className="fact">{fact}</p>
-      <p className="source">{source}</p>
+      <p className="title is-4">{fact}</p>
+      <p className="subtitle"><small>{source}</small></p>
     </blockquote>
   </div>
 );
