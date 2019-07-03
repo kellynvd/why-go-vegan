@@ -1,5 +1,6 @@
 .container{
-  padding: 0 2rem 0 2rem;
+  margin-top: 4rem;
+  text-align: center;
 }
 
 .button {
@@ -27,6 +28,7 @@
 
 @media (max-width: 768px) { 
   .container {
+    margin-top: 2rem;
     padding: 0 0.5rem 0 0.5rem;
   }
 }

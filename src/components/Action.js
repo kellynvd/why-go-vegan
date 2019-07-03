@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Action = (props) => (
-  <div className="container">
+  <div>
     <button 
       style={{ color: props.backgroundColor}}
       className="button is-white is-medium"
