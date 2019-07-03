@@ -2,6 +2,7 @@ import React from 'react';
 import randomColor from 'randomcolor';
 import '../styles/App.css';
 import Action from './Action';
+import Footer from './Footer';
 import Statement from './Statement';
 import Reasons from '../api'
 
@@ -47,6 +48,7 @@ state = {
           />
         </div>
        </div>
+       <Footer/>
       </div>    
     );
   }
