@@ -7,7 +7,7 @@ const Action = (props) => (
       className="button is-white is-medium"
       onClick={props.handlePick}
       >
-       Porquê ser vegano?
+       Why go vegan?
     </button>
   </div>
 );

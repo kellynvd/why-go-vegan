@@ -11,7 +11,7 @@ class App extends React.Component {
 state = {
     reasons: Reasons,
     selectedReason: {
-      fact: 'O veganismo é uma forma de viver que busca excluir, na medida do possível e do praticável, todas as formas de exploração e de crueldade contra animais, seja para a alimentação, para o vestuário ou para qualquer outra finalidade.',
+      fact: 'Veganism is a way of living which seeks to exclude, as far as is possible and practicable, all forms of exploitation of, and cruelty to, animals for food, clothing or any other purpose.',
       source: 'The Vegan Society'
     },
     gradientColorOne: '#0c8989',
